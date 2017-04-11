@@ -1,3 +1,3 @@
 # shell-scripts
 
-this is i write some shell-scripts.
+this is  some shell-scripts.
