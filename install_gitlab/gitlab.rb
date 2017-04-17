@@ -10,7 +10,7 @@
 ##! URL on which GitLab will be reachable.
 ##! For more details on configuring external_url see:
 ##! https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab
-external_url 'https://git.local.org'
+external_url 'https://128.2.160.138'
 nginx['redirect_http_to_https'] = true
 
 ## Legend
@@ -42,7 +42,7 @@ gitlab_rails['time_zone'] = 'CST'
 
 ### Email Settings
 # gitlab_rails['gitlab_email_enabled'] = true
-gitlab_rails['gitlab_email_from'] = 'root@6.x'
+gitlab_rails['gitlab_email_from'] = 'gitlab@96822.com'
 # gitlab_rails['gitlab_email_display_name'] = 'Example'
 # gitlab_rails['gitlab_email_reply_to'] = 'noreply@example.com'
 # gitlab_rails['gitlab_email_subject_suffix'] = ''
@@ -268,7 +268,7 @@ git_data_dirs({
 ### DEPRECATED: gitlab_rails['satellites_timeout'] = 30
 
 ### GitLab Shell settings for GitLab
-gitlab_rails['gitlab_shell_ssh_port'] = 21022
+## gitlab_rails['gitlab_shell_ssh_port'] = 22
 # gitlab_rails['git_max_size'] = 20971520
 # gitlab_rails['git_timeout'] = 10
 
